@@ -15,9 +15,15 @@ class square():
         return self.width * self.width
 
     def PermiterOfMySquare(self):
+        """
+        permiter of my square
+        """
         return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
+        """
+        diplaying the object
+        """
         return "{}/{}".format(self.width, self.height)
 
 
